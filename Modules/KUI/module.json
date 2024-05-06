@@ -1,0 +1,11 @@
+{
+    "name": "KUI",
+    "alias": "kui",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\KUI\\Providers\\KUIServiceProvider"
+    ],
+    "files": []
+}

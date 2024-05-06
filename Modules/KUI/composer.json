@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/kui",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\KUI\\": "",
+            "Modules\\KUI\\App\\": "app/",
+            "Modules\\KUI\\Database\\Factories\\": "database/factories/",
+            "Modules\\KUI\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\KUI\\Tests\\": "tests/"
+        }
+    }
+}
